@@ -1,27 +1,27 @@
 @font-face {
   font-family: 'Britanica';
-  src: url("../assets/fonts/BRITANICA-LIGHT.TTF") format('truetype');
+  src: url("assets/fonts/BRITANICA-LIGHT.TTF") format('truetype');
   font-weight: light;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Britanica';
-  src: url("../assets/fonts/BRITANICA-THIN.TTF") format('truetype');
+  src: url("assets/fonts/BRITANICA-THIN.TTF") format('truetype');
   font-weight: thin;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Britanica';
-  src: url("../assets/fonts/BRITANICA-HEAVY.TTF") format('truetype');
+  src: url("assets/fonts/BRITANICA-HEAVY.TTF") format('truetype');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Britanica';
-  src: url("../assets/fonts/BRITANICA-BOLD.TTF") format('truetype');
+  src: url("assets/fonts/BRITANICA-BOLD.TTF") format('truetype');
   font-weight: normal;
   font-style: bold;
 }
