@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Britanica';
+  src: url("../8.5+RETINA/assets/fonts/BRITANICA-LIGHT.TTF") format('truetype');
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Britanica';
+  src: url("../8.5+RETINA/assets/fonts/BRITANICA-THIN.TTF") format('truetype');
+  font-weight: thin;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Britanica';
+  src: url("../8.5+RETINA/assets/fonts/BRITANICA-HEAVY.TTF") format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Britanica';
+  src: url("../8.5+RETINA/assets/fonts/BRITANICA-BOLD.TTF") format('truetype');
+  font-weight: normal;
+  font-style: bold;
+}
+
+body {
+  font-family: "Britanica", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #0434BC;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  color: white;;
+}
+.main {
+  flex: 1
+}
+
+.tile-image {
+  width: 463px;
+  float: left;
+  margin-right: 50px;
+}
+
+h1 {  
+  font-family: "Britanica", sans-serif;
+  font-weight: lighter;
+  font-size: 4rem;
+  color:white;
+}
+
+footer {
+  text-align: right;
+  color: white;
+}
+
+.left {
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.card {
+  width: 45%;
+}
+
+@media (min-width: 681px) and (max-width: 1000px)
+{
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
+
+@media(max-width:680px){
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
