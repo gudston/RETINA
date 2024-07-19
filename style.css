@@ -66,8 +66,25 @@ footer {
 }
 
 .card {
-  width: 45%;
+  width: 48%;
 }
+
+@media (min-width: 1000px) and (max-width: 1475px)
+{
+  .card {
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
+
 
 @media (min-width: 681px) and (max-width: 1000px)
 {
