@@ -39,10 +39,12 @@ body {
   flex: 1
 }
 
+
 .tile-image {
   width: 463px;
   float: left;
   margin-right: 50px;
+  margin-top: 20px;
 }
 
 h1 {  
@@ -50,6 +52,15 @@ h1 {
   font-weight: lighter;
   font-size: 4rem;
   color:white;
+}
+
+.presupuesto a{  
+  font-family: "Britanica", sans-serif;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  color:white;
+  text-decoration:none;
+
 }
 
 footer {
@@ -126,4 +137,59 @@ footer {
     display: inline;
     object-fit: cover;
   }
+}
+
+.pricing-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  gap:2rem;
+}
+.pricing-plan {
+flex: 1;
+max-width: 400px;
+padding: 20px;
+background-color: darkblue;
+color: white;
+border-radius: 30px;
+text-align: center;
+}
+
+.plan-title {
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.plan-price {
+font-size: 48px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.plan-features {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.plan-features li {
+margin-bottom: 20px;
+}
+
+.plan-button {
+padding: 10px;
+background-color: #ff6600;
+color: #fff;
+border-radius: 5px;
+border: none;
+}
+
+@media (max-width: 1000px) {
+.pricing-container {
+flex-direction: column;
+height: 100%;
+}
 }
